@@ -5,7 +5,7 @@
     <%= capacitive_keyboard.ino =%>
 4.  Upload the project!
 
-5.  Play with the threshold value (`20` by default) in the `isTriggered` function to find an appropriate value for your environemnt.
+5.  Play with the threshold value (`20` by default) in the `isTriggered` function to find an appropriate value for your environment. Open up the Serial Monitor to see what values the Arduino is reporting.
 
 6.  Download and install [Processing](https://processing.org/download/?processing) if you don't have it.
 
