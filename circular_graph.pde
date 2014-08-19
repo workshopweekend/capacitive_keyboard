@@ -118,7 +118,6 @@ void playNotes() {
   }
 }
 
-
 void handleData(int[] samples) {
   for (int source = 0; source < samples.length; ++source) {
     values[source][ptr] = samples[source];
