@@ -8,7 +8,6 @@
 const int numSensors = 6;
 const int inputPins[] = {6, 7, 8, 9, 10, 11};
 
-HT1632LEDMatrix matrix = HT1632LEDMatrix(DATA, WR, CS);
 CapacitiveSensor *sensors[6];
 
 void setup() {
